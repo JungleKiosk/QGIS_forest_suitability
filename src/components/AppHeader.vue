@@ -26,7 +26,7 @@ export default {
                     <h1 class="title_init text-center">Suitability <br> Forestry Work</h1>
                     <h2>
                         This project aims to provide a geospatial analysis-based approach to improve forest planning and
-                        forest machine management.<br>
+                        forest machine management.
                         Using <span style="color: greenyellow;">Q</span><span style="color: orange;">GIS</span> as an analysis tool to optimize forest resources in a sustainable way.
                     </h2>
                 </div>
