@@ -5,3 +5,9 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+
+## npm install:
+
+npm i -D @vue-leaflet/vue-leaflet leaflet
+
+source: https://github.com/vue-leaflet/vue-leaflet
