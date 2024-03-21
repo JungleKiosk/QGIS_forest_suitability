@@ -97,10 +97,6 @@ export default {
   
 
 <style>
-img{
-    width: 50%;
-}
-
 
 .end_soiltext a {
     text-decoration: none;
