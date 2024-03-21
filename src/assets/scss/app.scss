@@ -1,0 +1,65 @@
+@use './../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@use "./partials/_variables.scss" as *;
+@use "./partials/_appMap.scss";
+@use "./partials/_footer.scss";
+
+body {
+    background-color: $bg_body;
+    color: $light;
+    font-family: 'Nunito', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $bg_body;
+    height: 123px;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: $shadow_stack;
+}
+
+body::-webkit-scrollbar-track {
+    border-left: 1px solid $dark ;
+}
+
+.bg_item_show {
+    border: 2px solid #44bc8452;
+    color: $light;
+}
+
+.bg_item {
+    border: 2px solid #00ff889a;
+    background-color: #03da764b;
+}
+
+.title {
+    font-weight: 500;
+    color: $shadow_stack;
+}
+
+.container p a {
+    color: $shadow_stack;
+}
+
+.bg_btn {
+    border: 3px solid $shadow_stack;
+    color: $shadow_stack;
+    border-radius: 30px;
+    background-color: $bg_body;
+    transition: transform 0.1s ease;
+    font-weight: bold;
+}
+
+.bg_btn:hover {
+    transform: scale(1.1);
+    background-color: #00ff62;
+    color: $bg_body;
+    border: 3px solid $bg_body;
+    font-weight: bold;
+}
