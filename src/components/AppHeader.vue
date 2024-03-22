@@ -11,7 +11,6 @@ export default {
 </script>
 
 
-
 <template>
     <header id="goup">
         <div class="container-fluid bg-video">
@@ -39,7 +38,7 @@ export default {
 <style>
 .bg-video {
     position: relative;
-    height: 800px; /* Altezza desiderata del video */
+    height: 800px
 }
 
 #bgVideo {
@@ -56,7 +55,6 @@ export default {
     z-index: 1;
     color: rgb(251, 249, 249);
     background-color: rgba(2, 35, 9, 0.562);
-    /* Opacity added to make the text more readable */
     padding: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
